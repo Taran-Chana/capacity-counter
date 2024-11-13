@@ -1,4 +1,5 @@
 #include <Arduino.h>
+//Library created by Avishay Orpaz, used to output to the 4-digit 7-segment display
 #include <TM1637Display.h>
 
 // Module connection pins (Digital Pins)
@@ -13,9 +14,11 @@ int sensorState = 0;
 
 void setup()
 {
-  display.setBrightness(5);
+  
   pinMode(PIR, INPUT);
   pinMode(LED_BUILTIN, OUTPUT);
+  //initial 4-digit display setup
+  display.setBrightness(5);
   display.clear();
   display.showNumberDec(counter, false);
 }
@@ -23,14 +26,18 @@ void setup()
 void loop()
 {
   sensorState = digitalRead(PIR);
-  
+  //if PIR sensor detects motion
   if (sensorState == HIGH) {
+    //increment counter & update display
     counter++;
     display.clear();
     display.showNumberDec(counter, false);
     digitalWrite(LED_BUILTIN, LOW);
+    //delay added so counter only increments by 1
     delay(1200);
-  } else { 
+  } 
+  //motion not detected
+  else { 
     digitalWrite(LED_BUILTIN, HIGH);
   }
 
