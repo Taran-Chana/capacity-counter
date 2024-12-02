@@ -30,7 +30,7 @@ PIR 2
 
 LED
 -  13:
--  GND: (via capacitor)
+-  GND: (via resistor)
 
 _For the PIR sensors and the LED, they can be connected to the Arduino via a breadboard. However, I encountered difficulties when connecting the 7-segment display to the 5V power via the breadboard. Due to this, I recommend connecting the display VCC to the 3.5V port on the Arduino._
 
