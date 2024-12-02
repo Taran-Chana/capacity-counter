@@ -12,7 +12,7 @@ UB CSE 321 project, a Real-time embedded system that increments and decrements o
 - X Wires
 - Breadboard _(recommended)_ 
 
-_If you want to test that the hardware you obtain is working correctly, there are [tests](tests/) for the components in the tests directory of this repository_
+_If you want to test that the hardware you obtain is working correctly, there are tests for the components in the [/tests](tests/) directory of this repository_
 
 Arduino IDE is recommended to upload the code to Arduino.
 
