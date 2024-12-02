@@ -16,7 +16,8 @@ The current sketch is [phase3](phase3/). The previous prototype, which only feat
 _If you want to test that the hardware you obtain is working correctly, there are tests for the components in the [/tests](tests/) directory of this repository_
 
 ### Software needed:
-- Arduino IDE _(recommended)_ 
+- Arduino IDE _(recommended)_
+- TM1637 Library by Avishay Orpaz, used to output to the 4-digit 7-segment display
 
 ### Arduino Connections:
 7-Segment Clock Display
