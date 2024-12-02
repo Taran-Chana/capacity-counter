@@ -4,7 +4,7 @@ UB CSE 321 project, a Real-time embedded system that increments and decrements o
 
 # Setup
 
-### The hardware needed for this product is:
+### Hardware needed:
 - Arduino UNO R3
 - 2 PIR Sensors
 - 7-segment clock display
