@@ -24,11 +24,12 @@ void loop()
   display.showNumberDec(65, false);
   delay(1500);
 
+  //show 9999
   display.clear();
   display.showNumberDec(9999, false);
   delay(1500);
 
-  //
+  //show 0000
   display.clear();
   display.showNumberDec(10000, false);
   delay(1500);
