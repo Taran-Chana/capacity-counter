@@ -9,7 +9,7 @@ The current sketch is [phase3](phase3/). The previous prototype, which only feat
 - Arduino UNO R3
 - 2 PIR Sensors
 - 7-segment clock display
-- LED Light & capable resistor
+- LED Light & compatible resistor
 - 20+ Wires
 - Breadboard _(recommended)_ 
 
