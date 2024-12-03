@@ -1,5 +1,5 @@
 //Test 2 PIR sensors
-//outputs to display which 
+//outputs to display which PIR sensor is sending a signal
 #include <Arduino.h>
 #include <TM1637Display.h>
 
