@@ -37,7 +37,7 @@ void setup()
   display.clear();
   display.showNumberDec(counter, false);
 
-  //testing remove
+  //Serial Monitor Setup
   Serial.begin(9600);
   Serial.write("Started \n");
 }
@@ -120,7 +120,7 @@ void loop()
       
   }
 
-  //testing remove
+  //Incremental logging
   if(wait % 5000 == 0){
     Serial.print("first: ");
     Serial.print(first);
