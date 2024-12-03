@@ -21,23 +21,23 @@ _If you want to test that the hardware you obtain is working correctly, there ar
 
 ### Arduino to Component Connections:
 TM-1637 4-Digit Clock Display:
-- 2: CLK
-- 3: DIO
+- D2: CLK
+- D3: DIO
 - 3.5V: VCC
 - GND: GND
 
 PIR 1:
-- 7: Output
+- D7: Output
 - 5V: Power
 - GND: GND
 
 PIR 2:
-- 8: Output
+- D8: Output
 - 5V: Power
 - GND: GND
 
 LED:
--  13:
+-  D13:
 -  GND: (via compatible resistor)
 
 _For the PIR sensors and the LED, they can be connected to the Arduino via a breadboard. However, I encountered difficulties when connecting the TM-1637 display to the 5V power via the breadboard. Due to this, I recommend connecting the display VCC to the 3.5V port on the Arduino._
