@@ -109,8 +109,8 @@ void loop()
     }
   }
   
-  //used to clean up situations where 1 PIR sensor recieves an input put the other doesn't
-  //meaning the person did not pass fully into the room, therefore should not interact with the counter
+  //used to clean up situations where 1 PIR sensor receives an input but the other doesn't
+  //meaning the person did not pass fully into the room and, therefore should not interact with the counter
   else
   { 
     if(wait > 50000){
@@ -132,7 +132,3 @@ void loop()
     }
   
 }
-
-/*
-
-*/
